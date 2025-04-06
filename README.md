@@ -16,6 +16,40 @@
  
 略，自行探索。我才不会告诉你入口是 `collect.py` 和 `process.py`。**强烈建议使用后者，前者只是个小玩具**，配置参考 `subscribe/config/config.default.json`
 
+## 获取方法
+
+1.谷歌colab
+https://colab.research.google.com
+
+2.    在新建的笔记本中，运行以下命令以克隆项目仓库：​
+
+    !git clone https://github.com/wzdnzd/aggregator.git
+
+3.安装依赖项(有可能不用)：
+
+    进入克隆的项目目录：​
+
+    %cd aggregator
+
+    安装项目所需的 Python 依赖项：​
+
+    !pip install -r requirements.txt​
+
+4.运行项目：
+
+    在 Colab 中，使用以下命令运行 process.py 脚本：
+
+    !python -u subscribe/collect.py -s
+
+5.查看节点文件：
+
+   !cat /content/aggregator/data/v2ray.txt
+
+6.下载节点文件
+
+from google.colab import files
+files.download('/content/aggregator/data/v2ray.txt')
+
 
 ## 免责申明
 + 本项目仅用作学习爬虫技术，请勿滥用，不要通过此工具做任何违法乱纪或有损国家利益之事
