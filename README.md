@@ -40,9 +40,7 @@ https://colab.research.google.com
   在 Colab 中，使用以下命令运行 process.py 脚本：
 
     !python -u subscribe/collect.py -s
-  或(推荐下面)
-  
-    !python -u subscribe/process.py -s
+
 
 5.查看节点文件：
 
