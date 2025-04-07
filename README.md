@@ -33,7 +33,7 @@ https://colab.research.google.com
 
   安装项目所需的 Python 依赖项：​
 
-    !pip install -r requirements.txt​
+    !pip install -r requirements.txt
 
 4.运行项目：
 
